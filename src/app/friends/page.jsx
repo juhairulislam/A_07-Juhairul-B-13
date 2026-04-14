@@ -4,16 +4,12 @@ import React from 'react';
 
 const AllFriends =async () => {
 
-    const res = await fetch('http://localhost:3000/friends.json');
+    const res = await fetch(' http://localhost:3000/friends.json',{
+        cache:'no-store'
+    });
     const data = await res.json() ;
 
     console.log(data)
-
-
-    
-
-
-
     return (
         <div className='mt-8 w-[80%] mx-auto'>
 
