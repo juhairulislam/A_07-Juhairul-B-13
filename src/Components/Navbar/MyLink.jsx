@@ -9,7 +9,7 @@ const MyLink = ({href, children}) => {
 
     return (
         <div>
-            <Link href={href} className={`btn ${myPath === href?'text-white bg-[#244D3F]':''}`}>
+            <Link href={href} className={`md:btn ${myPath === href?'md:text-white md:bg-[#244D3F]':''}`}>
             {children}
             </Link>
             
