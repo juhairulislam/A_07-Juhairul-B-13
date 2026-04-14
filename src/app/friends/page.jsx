@@ -4,9 +4,7 @@ import React from 'react';
 
 const AllFriends =async () => {
 
-    const res = await fetch(' http://localhost:3000/friends.json',{
-        cache:'no-store'
-    });
+    const res = await fetch('https://a-07-juhairul-b-13.vercel.app/friends.json');
     const data = await res.json() ;
 
     console.log(data)
