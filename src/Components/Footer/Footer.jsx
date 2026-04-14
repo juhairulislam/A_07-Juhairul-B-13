@@ -25,10 +25,10 @@ const Footer = () => {
 
             </div>
 
-            <p className='text-[13px] text-gray-300 text-center  mt-5'>Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
+            <p className='text-[11px] md:text-[13px] text-gray-300 text-center  mt-5'>Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
 
             <div>
-                <p className='text-white text-center mt-8'>Social Links</p>
+                <p className='text-white text-center mt-4 md:mt-8'>Social Links</p>
 
 
                 <div className='flex justify-center gap-2 mt-3'>
@@ -66,10 +66,10 @@ const Footer = () => {
             </div>
 
             
-                    <div className='mt-10 flex justify-between border-t border-green-800 py-4 text-[14px]'>
+                    <div className='mt-4 md:mt-10 flex flex-col md:flex-row text-center justify-between gap-1 border-t border-green-800 py-4 text-[11px] md:text-[14px]'>
                         <p className='text-gray-500'>© 2026 KeenKeeper. All rights reserved.</p>
 
-                        <div className='text-gray-500 flex justify-between gap-8'>
+                        <div className='text-gray-500 flex justify-between gap-2 md:gap-8'>
                             <p>Privacy Policy</p>
                             <p>Terms of Service </p>
                             <p>Cookies</p>
