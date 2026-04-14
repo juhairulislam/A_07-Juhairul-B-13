@@ -49,7 +49,7 @@ const Navbar = () => {
 
                 <Image
                     src={logo}
-                    alt="Picture of the author"
+                    alt="Logo of navbar"
                     width={100}
                     height={100}
                 />
