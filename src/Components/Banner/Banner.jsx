@@ -2,8 +2,8 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div >
-            <div className='px-10 py-8  md:px-20 md:py-10 text-center space-y-4 w-[90%] mx-auto'>
+        <div className=''>
+            <div className='px-10 py-8  md:px-20 md:py-10 text-center space-y-4 w-[80%] mx-auto'>
                 <h1 className='text-2xl md:text-4xl font-bold'>Friends to keep close in your life</h1>
                 <p className='text-[12px] md:text-[14px] text-[#64748B]'>Your personal shelf of meaningful connections. Browse, tend, and nurture the <br /> 
 relationships that matter most.</p>

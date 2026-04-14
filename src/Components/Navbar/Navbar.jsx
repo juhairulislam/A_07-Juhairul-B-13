@@ -51,7 +51,7 @@ const Navbar = () => {
                     src={logo}
                     alt="Logo of navbar"
                     width={100}
-                    height={100}
+                    style={{ height: 'auto' }}
                 />
             </div>
 

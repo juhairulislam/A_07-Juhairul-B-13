@@ -13,7 +13,7 @@ const Footer = () => {
                     src={footerImage}
                     alt='Footer Image'
                     width={250}
-                    height={250}
+                    style={{ height: 'auto' }}
                 >
 
                 </Image>
@@ -37,7 +37,7 @@ const Footer = () => {
                     src={instagram}
                     alt='Footer Image'
                     width={30}
-                    height={30}
+                    style={{ height: 'auto' }}
                 >
 
                 </Image>
